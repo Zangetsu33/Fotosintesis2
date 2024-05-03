@@ -15,10 +15,10 @@
           <!-- Profile dropdown -->
           <div class="relative ml-3 group">
             <div>
-              <button @click="toggleProfileMenu" type="button" class="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" :class="{ 'bg-white': profileMenuOpen }">
+              <button @click="toggleProfileMenu" type="button" class="relative flex max-w-xs items-center rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-white" :class="{ 'bg-white': profileMenuOpen }">
                 <span class="absolute -inset-1.5"></span>
-                <span class="sr-only">Open user menu</span>
-                <img class="h-8 w-8 rounded-full group-hover:bg-gray-900" src="~/assets/images/user.png" alt="">
+                <span class="sr-only">Pefil</span>
+                <img class="h-8 w-8 rounded-full group-hover:bg-white" src="~/assets/images/user.png" alt="">
               </button>
             </div>
 

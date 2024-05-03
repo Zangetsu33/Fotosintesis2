@@ -2,8 +2,8 @@
 
 <template>
   <Sidebar />
-  <Navar />
   <Header />
+  <Main />
   <Footer />
 </template>
 
